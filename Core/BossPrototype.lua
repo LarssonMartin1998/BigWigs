@@ -363,6 +363,7 @@ do
 		ALTPOWER = "Interface\\AddOns\\BigWigs\\Media\\Icons\\Menus\\AltPower",
 		INFOBOX = "Interface\\AddOns\\BigWigs\\Media\\Icons\\Menus\\Info",
 		COUNTDOWN = "Interface\\AddOns\\BigWigs\\Media\\Icons\\Menus\\Countdown",
+		CUSTOM_BAR_NAME = "Interface\\AddOns\\BigWigs\\Media\\Icons\\Menus\\Bars",
 		CASTBAR_COUNTDOWN = "Interface\\AddOns\\BigWigs\\Media\\Icons\\Menus\\Countdown",
 		SAY = "Interface\\AddOns\\BigWigs\\Media\\Icons\\Menus\\Say",
 		SAY_COUNTDOWN = "Interface\\AddOns\\BigWigs\\Media\\Icons\\Menus\\SayCountdown",
