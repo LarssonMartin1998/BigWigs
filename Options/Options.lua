@@ -485,6 +485,10 @@ local function advancedToggles(dbKey, module, check)
 		advOpts[#advOpts+1] = getSlaveToggle(L.COUNTDOWN, L.COUNTDOWN_desc, dbKey, module, C.COUNTDOWN, check, 0.5, module:GetMenuIcon("COUNTDOWN"))
 		--
 
+		-- Bar & Countdown
+		advOpts[#advOpts+1] = getSlaveToggle(L.CUSTOM_BAR_NAME, L.CUSTOM_BAR_NAME_desc, dbKey, module, C.CUSTOM_BAR_NAME, check, 0.5, module:GetMenuIcon("CUSTOM_BAR_NAME"))
+		--
+
 		-- Cast Bars & Cast Countdowns
 		if bit.band(dbv, C.CASTBAR) == C.CASTBAR and hasOptionFlag(dbKey, module, "CASTBAR") then
 			advOpts[#advOpts+1] = getSlaveToggle(L.CASTBAR, L.CASTBAR_desc, dbKey, module, C.CASTBAR, check, 0.3, module:GetMenuIcon("CASTBAR"))
